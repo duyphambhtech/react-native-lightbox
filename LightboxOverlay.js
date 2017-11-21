@@ -4,6 +4,7 @@
 'use strict';
 
 var React = require('react');
+var createReactClass = require('create-react-class');
 var PropTypes = require('prop-types');
 var {
   Animated,
@@ -23,7 +24,7 @@ var WINDOW_WIDTH = Dimensions.get('window').width;
 // Translation threshold for closing the image preview
 var CLOSING_THRESHOLD = 100;
 
-var LightboxOverlay = React.createClass({
+var LightboxOverlay = createReactClass({
   propTypes: {
     origin: PropTypes.shape({
       x: PropTypes.number,
