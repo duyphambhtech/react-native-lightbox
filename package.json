@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/oblador/react-native-lightbox",
   "dependencies": {
-    "react-native-view-transformer": "ldn0x7dc/react-native-view-transformer#f7e028b6566022deac4e523052e74c2c63a4af7e",
+    "react-native-view-transformer": "https://github.com/duyphambhtech/react-native-view-transformer.git#1e2676283610cd5d5a20ccc846e32b05e9066d8c",
     "react-timer-mixin": "^0.13.3"
   }
 }
